@@ -4,6 +4,16 @@
   "marker": "allow-candidate",
   "path": "/v1/sshcertx/0",
   "kid": "k-active",
-  "sig": "sTd4PEGC5dFHYNXodn3006-n0t2QQWTFYv89bFLIDXA",
-  "_sign_line": "v1|k-active|d4a651446fe293f9ca6dfe1d1b5dbaf08a1571a392e6da9e6a982f2326b56a04"
+  "sig": "EHXxB-33XTY-GfgUAcS6UTtgv03JHi7I7exDfobiF8c",
+  "_sign_line": "v1|k-active|d4a651446fe293f9ca6dfe1d1b5dbaf08a1571a392e6da9e6a982f2326b56a04",
+  "key_id": "key-ok-login",
+  "serial": "ok-0",
+  "principals": [
+    "root"
+  ],
+  "force_command": "",
+  "source_address": "10.0.0.0/8",
+  "client_address": "10.1.2.3",
+  "valid_after": 1781780400,
+  "valid_before": 1781787600
 }

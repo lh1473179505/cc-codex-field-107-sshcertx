@@ -4,6 +4,16 @@
   "marker": "allow-candidate",
   "path": "/v1/sshcertx/1",
   "kid": "k-active",
-  "sig": "68HBTm9ZBoCBb0B6brdPzZ7DH3Z3SCdFRXh1Zqq_MSs",
-  "_sign_line": "v1|k-active|ee66e903c07d49a2d8dee8e856d2a67c582caec9563d5fd8ebc034031e99a45b"
+  "sig": "ZEApZFKajpRxEUsOm6euU5RRJdY7boC0Q68cBbxxrEM",
+  "_sign_line": "v1|k-active|ee66e903c07d49a2d8dee8e856d2a67c582caec9563d5fd8ebc034031e99a45b",
+  "key_id": "key-ok-forced",
+  "serial": "ok-1",
+  "principals": [
+    "deploy"
+  ],
+  "force_command": "/usr/bin/uptime",
+  "source_address": "10.0.0.0/8",
+  "client_address": "10.9.8.7",
+  "valid_after": 1781780400,
+  "valid_before": 1781787600
 }

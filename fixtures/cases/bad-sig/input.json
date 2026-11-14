@@ -5,5 +5,15 @@
   "path": "/evil/sshcertx/0",
   "kid": "k-active",
   "sig": "fkY2_-oDbL-wEP4YvMmvEFOGR5swf_D98Ck2NkfJw5M",
-  "_sign_line": "v1|k-active|95c53b9a5707f7a2c2510a21669c8917bd23146c9934791bd65ba824968d6fa2"
+  "_sign_line": "v1|k-active|95c53b9a5707f7a2c2510a21669c8917bd23146c9934791bd65ba824968d6fa2",
+  "key_id": "key-bad-sig",
+  "serial": "deny-0",
+  "principals": [
+    "root"
+  ],
+  "force_command": "",
+  "source_address": "10.0.0.0/8",
+  "client_address": "10.1.2.3",
+  "valid_after": 1781780400,
+  "valid_before": 1781787600
 }

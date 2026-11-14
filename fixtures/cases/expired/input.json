@@ -4,6 +4,16 @@
   "marker": "expired",
   "path": "/evil/sshcertx/6",
   "kid": "k-active",
-  "sig": "TCkQNwCWk7LkdUDuQvbGfhqVn4X3EYbHJH0mS4Qw4l4",
-  "_sign_line": "v1|k-active|5edb16c609b1093dd071578a1b216bf8e0bdeb5f5a04baf53b415b9b3643efc5"
+  "sig": "6y459kJyT2iZup4xXI34nZYGZ6vITWihOWJECOVjgwM",
+  "_sign_line": "v1|k-active|5edb16c609b1093dd071578a1b216bf8e0bdeb5f5a04baf53b415b9b3643efc5",
+  "key_id": "key-expired",
+  "serial": "deny-6",
+  "principals": [
+    "root"
+  ],
+  "force_command": "",
+  "source_address": "10.0.0.0/8",
+  "client_address": "10.1.2.3",
+  "valid_after": 1781776800,
+  "valid_before": 1781780400
 }

@@ -1,9 +1,23 @@
 from __future__ import annotations
 import argparse
 import json
+from pathlib import Path
 import sys
 from .engine import admit_object, inspect_object
 from .load import load_json, load_store, save_store
+
+
+def _parse_now(value: str | None) -> int | None:
+    if not value:
+        return None
+    try:
+        return int(value)
+    except ValueError:
+        from datetime import datetime
+        return int(
+            datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp()
+        )
+
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="python -m sshcertx")
@@ -26,25 +40,24 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(inspect_object(obj), ensure_ascii=False, indent=2))
         return 0
 
-    obj = load_json(args.input)
-    keys = load_json(args.keys)
-    policy = load_json(args.policy)
-    store = load_store(args.store)
-    now = None
-    if args.now:
-        # accept unix int or leave None for stub
-        try:
-            now = int(args.now)
-        except ValueError:
-            from datetime import datetime, timezone
-            now = int(datetime.fromisoformat(args.now.replace("Z", "+00:00")).timestamp())
+    # Any load failure exits 2 and must not touch the store or report.
+    try:
+        obj = load_json(args.input)
+        keys = load_json(args.keys)
+        policy = load_json(args.policy)
+        store = load_store(args.store)
+        now = _parse_now(args.now)
+    except (OSError, ValueError, json.JSONDecodeError) as exc:
+        print(f"load failure: {exc}", file=sys.stderr)
+        return 2
     try:
         report = admit_object(obj, keys, policy, store, now)
     except ValueError as e:
         print(str(e), file=sys.stderr)
         return 2
-    from pathlib import Path as _P
-    _P(args.report).write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    Path(args.report).write_text(
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     if report.get("decision") == "allow":
         save_store(args.store, store)
         return 0

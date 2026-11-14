@@ -4,6 +4,16 @@
   "marker": "early",
   "path": "/evil/sshcertx/7",
   "kid": "k-active",
-  "sig": "Ay16OzCgyBmFp045W2WOZr3m_bj9iiEDR91y8tpobZU",
-  "_sign_line": "v1|k-active|eff3f79d90329dbb9d603e8f1aaa60cff1575325286f875fdba4f7dc0aa7796f"
+  "sig": "_KHOobd1l-2jQMJRna38kYiOA1QVH9cclL6GN5G1U1k",
+  "_sign_line": "v1|k-active|eff3f79d90329dbb9d603e8f1aaa60cff1575325286f875fdba4f7dc0aa7796f",
+  "key_id": "key-early",
+  "serial": "deny-7",
+  "principals": [
+    "root"
+  ],
+  "force_command": "",
+  "source_address": "10.0.0.0/8",
+  "client_address": "10.1.2.3",
+  "valid_after": 1781787600,
+  "valid_before": 1781791200
 }

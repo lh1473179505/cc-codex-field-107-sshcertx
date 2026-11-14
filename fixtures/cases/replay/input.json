@@ -4,6 +4,16 @@
   "marker": "replay",
   "path": "/evil/sshcertx/5",
   "kid": "k-active",
-  "sig": "SdvFCc60-v-ynrZTiYOHmcubUFngkTjDx6RIKAGgOgU",
-  "_sign_line": "v1|k-active|6794aa6fbb4b1804025792121cb22848d27f4af45565075ad5a4d4aa9dd9abac"
+  "sig": "lYnUNXHpTnUq-ZM7HPUGmopT07bIgoW7gKFeE6Ujhs8",
+  "_sign_line": "v1|k-active|6794aa6fbb4b1804025792121cb22848d27f4af45565075ad5a4d4aa9dd9abac",
+  "key_id": "key-replay",
+  "serial": "used-1",
+  "principals": [
+    "root"
+  ],
+  "force_command": "",
+  "source_address": "10.0.0.0/8",
+  "client_address": "10.1.2.3",
+  "valid_after": 1781780400,
+  "valid_before": 1781787600
 }

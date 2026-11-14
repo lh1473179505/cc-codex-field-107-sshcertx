@@ -1,6 +1,9 @@
 {
   "clock_skew_seconds": 60,
   "allowed": true,
+  "allowed_principals": ["root", "deploy", "ops"],
+  "allow_interactive": true,
+  "allowed_force_commands": ["/usr/bin/uptime", "/usr/local/bin/bastion-shell"],
   "notes": "policy scaffold for sshcertx; real thresholds documented in admit-rules.md",
   "pkg": "sshcertx"
 }
