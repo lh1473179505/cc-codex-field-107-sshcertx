@@ -1,0 +1,9 @@
+{
+  "case": "replay",
+  "id": "deny-5",
+  "marker": "replay",
+  "path": "/evil/sshcertx/5",
+  "kid": "k-active",
+  "sig": "SdvFCc60-v-ynrZTiYOHmcubUFngkTjDx6RIKAGgOgU",
+  "_sign_line": "v1|k-active|6794aa6fbb4b1804025792121cb22848d27f4af45565075ad5a4d4aa9dd9abac"
+}

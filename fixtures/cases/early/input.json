@@ -1,0 +1,9 @@
+{
+  "case": "early",
+  "id": "deny-7",
+  "marker": "early",
+  "path": "/evil/sshcertx/7",
+  "kid": "k-active",
+  "sig": "Ay16OzCgyBmFp045W2WOZr3m_bj9iiEDR91y8tpobZU",
+  "_sign_line": "v1|k-active|eff3f79d90329dbb9d603e8f1aaa60cff1575325286f875fdba4f7dc0aa7796f"
+}

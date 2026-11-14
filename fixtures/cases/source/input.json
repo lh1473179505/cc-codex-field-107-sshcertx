@@ -1,0 +1,9 @@
+{
+  "case": "source",
+  "id": "deny-3",
+  "marker": "source",
+  "path": "/evil/sshcertx/3",
+  "kid": "k-active",
+  "sig": "U21M5sA7MCC_B3Cx9u0lJ8Tkmo5j1fgs-lmlog5aCdY",
+  "_sign_line": "v1|k-active|0658a7060cda0d95c55b4d2fb29e4c05e9105554871f23a563e9dcd79501c5d9"
+}

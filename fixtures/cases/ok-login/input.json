@@ -1,0 +1,9 @@
+{
+  "case": "ok-login",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/sshcertx/0",
+  "kid": "k-active",
+  "sig": "sTd4PEGC5dFHYNXodn3006-n0t2QQWTFYv89bFLIDXA",
+  "_sign_line": "v1|k-active|d4a651446fe293f9ca6dfe1d1b5dbaf08a1571a392e6da9e6a982f2326b56a04"
+}

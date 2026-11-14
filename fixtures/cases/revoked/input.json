@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-4",
+  "marker": "revoked",
+  "path": "/evil/sshcertx/4",
+  "kid": "k-revoked",
+  "sig": "NOLFq_LEfzUBn4XBJiXGSZPOzpxOKFIIzmZXpAxHqRw",
+  "_sign_line": "v1|k-revoked|f11b77ff4ed91a8af0aaa2e98ef403d69a18d80d685f231dd18c87b31c5dda97"
+}

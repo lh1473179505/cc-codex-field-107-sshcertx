@@ -1,0 +1,9 @@
+{
+  "case": "ok-forced",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/sshcertx/1",
+  "kid": "k-active",
+  "sig": "68HBTm9ZBoCBb0B6brdPzZ7DH3Z3SCdFRXh1Zqq_MSs",
+  "_sign_line": "v1|k-active|ee66e903c07d49a2d8dee8e856d2a67c582caec9563d5fd8ebc034031e99a45b"
+}

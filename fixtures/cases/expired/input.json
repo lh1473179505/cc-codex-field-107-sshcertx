@@ -1,0 +1,9 @@
+{
+  "case": "expired",
+  "id": "deny-6",
+  "marker": "expired",
+  "path": "/evil/sshcertx/6",
+  "kid": "k-active",
+  "sig": "TCkQNwCWk7LkdUDuQvbGfhqVn4X3EYbHJH0mS4Qw4l4",
+  "_sign_line": "v1|k-active|5edb16c609b1093dd071578a1b216bf8e0bdeb5f5a04baf53b415b9b3643efc5"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "force-cmd",
+  "id": "deny-2",
+  "marker": "force-cmd",
+  "path": "/evil/sshcertx/2",
+  "kid": "k-active",
+  "sig": "lIWRoYvUNOFqYhS6gGmj7RO23pe-nxMcyG0TfkV9OeY",
+  "_sign_line": "v1|k-active|e2ac12425d9033029abe0c3a95ad314fbe531680b4a6a1fc9aa6650641dfefd9"
+}
